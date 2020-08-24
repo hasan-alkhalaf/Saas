@@ -1,0 +1,28 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+  padding-left: 15 px;
+  padding-right: 15 px;
+}
+
+body {
+  background-color: #f6f6f6;
+  font-family: tahoma;
+  font-size: 16px;
+}
+
+.header .logo {
+  width: 30%;
+  float: left;
+}
+
+.header .navbar {
+  width: 70%;
+  float: left;
+}
+/*# sourceMappingURL=homepage.css.map */
