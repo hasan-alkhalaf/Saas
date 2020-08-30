@@ -1,0 +1,133 @@
+/*
+Strart with Slider
+*/
+.slider{
+
+    blockquote {
+        font: {
+            size: 20px;
+            style: italic;
+            width:bold;
+            family: tahoma, arial;
+        }
+        line-height: 1.7em;
+        text-align:center;
+        text-decoration:none;
+        color: #272626;
+        width: 80%;
+        margin: 30px auto;
+    }
+    img{
+       width: 100%;
+       height:450px;
+     
+    }
+    .blts{
+    text-align: center;
+    
+       
+    li{
+    
+        display: inline-block;
+        width:20px;
+        height: 20px;
+        background-color: #d1d1d1;
+        border-radius:50%;
+        list-style: none;
+        cursor: pointer;
+        &.active{
+            border: 3px solid black;
+            background-color: white;
+        }
+        &:hover{
+            border: 3px solid black;
+            background-color: white;
+        }
+       
+        
+    }
+
+   
+
+    
+}
+}
+/* Start services*/
+.services{
+    .service-box{
+        float: left;
+        width: (100% / 3);
+        &:not(:last-of-type){
+            padding-right:20px;
+        }
+        .service-title{
+            font-family: bold;
+            font-size: 20px;
+
+        }
+        i{
+            font-size: 30px;
+            margin-right: 8px;
+            position: relative;
+
+        }
+        .desc{
+            padding-left: 8px;
+            font-family: tahoma;
+            color:$gerycolor;
+
+        }
+        .link{
+            text-decoration: none;
+            color:$redcolor;
+
+        }
+    }
+}
+
+/* Start Players*/
+.players{
+    .player-box{
+        float: left;
+        width: (96% / 5);
+        &:not(:last-of-type){
+           margin-right:1%;
+        }
+        .player-title{
+           
+            font-size: 20px;
+            font-weight:normal;
+            span{
+                font-weight:bold;
+            }
+
+        }
+       
+        .player-desc{
+            padding-left: 8px;
+            font-family: tahoma;
+            color:$gerycolor;
+
+        }
+        .link{
+            text-decoration: none;
+            color:$redcolor;
+
+        }
+    }
+}
+
+/*start lorem*/
+.lorem-ip{
+.lorem-box{
+    float: left;
+    width: (94% / 3);
+    &:not(:last-of-type){
+    margin-right: 3%;
+    }
+        .lorem-img{
+        max-width: 100%;
+        
+            }    
+        }
+}

@@ -1,5 +1,6 @@
 *{
     box-sizing: border-box;
+    text-decoration: none;
 }
 
 .container {
@@ -7,5 +8,10 @@
     margin: 0 auto;
     padding-left:15 px;
     padding-right:15 px;
-
+     position: relative;
 }
+.clearfix {
+    clear: both;
+}
+    
+
